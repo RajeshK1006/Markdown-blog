@@ -50,13 +50,13 @@ const NavBar = () => {
           <Link href={"/"}>Home</Link>
         </li>
         <li>
-          <Link href={"/"}>About</Link>
+          <Link href={"/about"}>About</Link>
         </li>
         <li>
-          <Link href={"/"}>Blog</Link>
+          <Link href={"/blog"}>Blog</Link>
         </li>
         <li>
-          <Link href={"/"}>Contact</Link>
+          <Link href={"/contact"}>Contact</Link>
         </li>
         <li className="buttons px-4">
           <Link
@@ -80,7 +80,7 @@ const NavBar = () => {
       <div>
         <Sheet>
           <SheetTrigger>
-            <Menu className="md:hidden" />
+            <Menu className=" text-lg md:text-xl md:hidden" />
           </SheetTrigger>
           <SheetContent>
             <MobileNav></MobileNav>

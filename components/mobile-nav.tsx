@@ -31,6 +31,14 @@ const MobileNav = () => {
             Contact
           </Link>
         </li>
+        <li>
+          <Link
+            href={"/blog"}
+            className="hover:text-primary transition-colors font-bold"
+          >
+            Blogs
+          </Link>
+        </li>
 
         <div className="buttons gap-2 flex  flex-col text-xsm">
           <Link
